@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>
+            Form Data Guru
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p class="section-title ">Form Guru Add</p>
+        <hr/>
+        
+        <form action="add_guru.php" method="POST">
+            <div class="form-add-post">
+                <label htmlFor="title">Nama Lengkap</label>
+                <input type="text" name="nama_lengkap" placeholder="add nama"  id=""/>
+                <label htmlFor="title">NUPTK</label>
+                <input type="text" name="nuptk" placeholder="add nuptk"  id=""/>
+                <label htmlFor="title">NIK/KTP</label>
+                <input type="text" name="nik" placeholder="add nik"  id=""/>
+                <label htmlFor="body-content">Alamat</label>
+                <textarea name="alamat" id="body-content" placeholder="add alamat" cols="10" rows="5"></textarea>
+                <label htmlFor="title">TLP</label>
+                <input type="text" name="tlp" placeholder="add tlp"  id=""/>
+                <label htmlFor="title">Tempat lahir</label>
+                <input type="text" name="tmp_lhr" placeholder="add tempat lahir"  id=""/>
+                <label htmlFor="title">Tanggal lahir</label>
+                <input type="text" name="tgl_lhr" placeholder="add tanggal lahir"  id=""/>
+                <label htmlFor="title">JK</label>
+                <input type="text" name="jk" placeholder="add Jenik Kelamin"  id=""/>
+                <label htmlFor="title">Status Marital</label>
+                <input type="text" name="sts_marital" placeholder="add status marital"  id=""/>
+
+                <button type="submit" class="btn-submit">Simpan</button>
+            </div>
+        </form>
+    </body>
+
+</html>
